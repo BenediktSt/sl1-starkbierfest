@@ -1,0 +1,16 @@
+.time-table {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 10px;
+}
+
+.entry {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
