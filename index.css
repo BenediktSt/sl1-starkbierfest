@@ -35,3 +35,8 @@
 .icon {
     width: 400px;
 }
+
+.slogan {
+    margin: 50px 0;
+    text-decoration: underline;
+}
