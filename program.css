@@ -1,16 +1,35 @@
-.time-table {
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.container {
+    padding: 10px 40px;
+    position: relative;
+    width: 50%;
 }
 
-td {
-    padding: 10px;
+.left {
+    left: 0;
 }
 
-.entry {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.right {
+    left: 50%;
+}
+
+.content {
+    padding: 20px 30px;
+    background-color: #05386B;
+    position: relative;
+    border-radius: 10px;
+    color: #EDF5E1;
+    font-size: 1.5rem;
+}
+
+.timeline h1 {
+    text-align: center;
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    margin-top: 10px;
 }
