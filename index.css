@@ -34,9 +34,65 @@
 
 .icon {
     width: 400px;
+    position: relative;
+}
+
+.icon img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .slogan {
     margin: 50px 0;
     text-decoration: underline;
+}
+
+.img-group {
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    justify-content: space-around;
+}
+
+.overlay-image {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 20px 0px;
+}
+
+.overlay-image .image {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    border: 1px solid #8EE4AF;;
+}
+
+.overlay-image:hover .image {
+    opacity: 0.3;
+}
+
+.overlay-image .text {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: #05386B;
+}
+
+video {
+    width: 800px;
+}
+
+.sponsor {
+    max-width: 500px;
+    margin-bottom: 50px;
 }
