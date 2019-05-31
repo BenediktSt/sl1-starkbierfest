@@ -47,8 +47,10 @@ nav {
     margin: 0;
     display: flex;
     flex-direction: column;
+    align-content: flex-end;
     padding: 5px 0;
     flex-grow: 3;
+    height: 100%;
 }
 
 nav div {
@@ -56,6 +58,7 @@ nav div {
     justify-content: space-around;
     font-weight: bold;
     font-size: 1.3rem;
+    align-items: flex-end;
 }
 
 nav a {
@@ -70,31 +73,40 @@ a {
     color: #EDF5E1;
 }
 
+span {
+    color: #EDF5E1;
+}
+
 a:hover {
     color: #379683;
 }
 
 .sub-nav {
-    display: none;
+    visibility: hidden;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .sub-nav:hover {
-    display: flex;
+    visibility: visible;
 }
 
 .expandable {
-    display: flex;
+    visibility: visible;
     flex-direction: column;
+    align-items: flex-start;
+}
+
+.expanded > .sub-nav {
+    visibility: visible !important;
 }
 
 .expandable:hover > .sub-nav {
-    display: flex;
+    visibility: visible;
 }
 
 footer {
     background-color: #05386B;
-
     margin-top: 5px;
     position: absolute;
     bottom: 0;
