@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Starker Bock - Kontakt</title>
     <link rel="stylesheet" type="text/css" href="core.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">
 </head>
 <body>
 <div id="page-container">
@@ -36,6 +37,17 @@
     <div id="content-container">
         <main>
             <h1>Kontakt</h1>
+            <p> Sie haben eine Frage oder möchten aus einem anderen Grund mit uns in Kontakt treten?
+            Dann schicken Sie einfach das nachfolgende Formular ab und wir werden uns bei Ihnen melden.</p>
+            <form action="contact.php" method="post">
+                <label for="name">Name:*</label>
+                <input id="name" type="text" class="formInput" required placeholder="Bitte geben Sie Ihrern Namen ein" />
+                <label for="email">E-Mail Adresse:*</label>
+                <input id="email" type="email" class="formInput"  required placeholder="Bitte geben Sie Ihre E-Mail Adresse ein" />
+                <label for="message">Nachricht:*</label>
+                <textarea id="message" class="formInput"  required placeholder="Bitte geben Sie Ihre Nachricht ein"></textarea>
+                <input type="submit" class="formInput" value="Absenden" meth/>
+            </form>
         </main>
     </div>
     <footer>

@@ -1,0 +1,39 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    font-size: 1.5rem;
+    max-width: 700px;
+    margin: auto;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.formInput {
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #05386B;
+    font-size: 1.2rem;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+    font-family: Helvetica, serif;
+}
+
+input[type='submit'] {
+    border: none;
+    background-color: #05386B;
+    color: #EDF5E1;
+}
