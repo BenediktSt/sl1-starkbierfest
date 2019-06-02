@@ -1,1 +1,16 @@
-.tab { margin-left: 40px; }
+main {
+    font-size: 1.5rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+main .tab {
+    margin-left: 40px;
+    font-size: 2rem;
+}
+
+main .quote {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #EDF5E1;
+}
