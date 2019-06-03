@@ -118,6 +118,10 @@ footer div {
     padding: 20px 0 10px 5px;
 }
 
+footer a {
+    font-size: 1.3rem;
+}
+
 #content-container {
     padding: 5px 10px 65px 10px;
     color: #05386B;
