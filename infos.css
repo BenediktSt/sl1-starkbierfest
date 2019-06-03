@@ -14,3 +14,8 @@ main .quote {
     font-weight: bold;
     color: #EDF5E1;
 }
+
+img {
+    width: 50%;
+    height: 50%;
+}
